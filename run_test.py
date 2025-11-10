@@ -8,7 +8,7 @@ import os
 # --- 1. 定义常量 (与训练时保持一致) ---
 IMG_SIZE = (128, 128)
 BATCH_SIZE = 32  # 批量大小可以调大，预测时不需要太小
-TEST_DIR = 'datasets/test' # 指向包装文件夹
+TEST_DIR = 'datasets/tests' # 指向包装文件夹
 
 # --- 2. 加载模型 ---
 print("Loading saved model...")

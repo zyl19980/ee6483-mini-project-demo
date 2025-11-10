@@ -3,6 +3,14 @@ from tensorflow.keras import layers, models
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import matplotlib.pyplot as plt
 import os
+import random
+import numpy as np
+
+# 固定随机种子
+os.environ['PYTHONHASHSEED'] = '42'
+random.seed(42)
+np.random.seed(42)
+tf.random.set_seed(42)
 
 # --- 1. 定义常量 (与上一步相同) ---
 
